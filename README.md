@@ -49,3 +49,7 @@ content in `index.html` and its appearance in `style.css`.
 
 **Note:** Some icons load from online libraries and may require an
 internet connection.
+
+## Live Website
+
+https://andy-numero.github.io/updated-portfolio/
