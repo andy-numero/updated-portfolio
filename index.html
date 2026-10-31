@@ -1,251 +1,614 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Andrea Amor De Castro</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andrea Amor De Castro - Information Technology student seeking an OJT opportunity.">
+    <title>Andrea Amor De Castro | IT Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
 <div class="wrap">
 
-  <header class="topbar">
-    <span class="label">Portfolio · BSIT · OJT 2027</span>
-    <nav aria-label="Sections">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a class="cta" href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- HEADER / NAVIGATION -->
+    <header class="topbar">
+        <div class="quick-contact" aria-label="Social media and contact links">
+            <a href="https://www.instagram.com/andys_sands/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Instagram" title="Instagram">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <circle class="icon-fill" cx="17.5" cy="6.5" r="1"/>
+                </svg>
+            </a>
 
-  <div class="hero">
-    <div>
-      <span class="label">BS Information Technology student</span>
-      <h1>Andrea Amor <span>De Castro</span></h1>
-      <p class="lede">A motivated and dedicated student at STI College of Tanay. I keep records accurate, automate the repetitive parts in Excel, and test systems until permissions and backups behave. I am looking for an OJT placement where I can do that in a professional team.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#contact">Let's Work Together</a>
-      </div>
-    </div>
-    <img src="images/profile.jpg" alt="Profile photo" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block;">
-  </div>
+            <a href="mailto:andreaamor.dc@gmail.com"
+               aria-label="Email" title="Email">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="2.5" y="4.5" width="19" height="15" rx="2"/>
+                    <path d="m3.5 6 8.5 7 8.5-7"/>
+                </svg>
+            </a>
 
-  <section id="about">
-    <h2>About me</h2>
-    <div class="body">
-      <p class="statement">A BS Information Technology student seeking an On-the-Job Training opportunity to apply my knowledge in data management, technical documentation, project coordination, spreadsheet automation, and IT support.</p>
-      <div class="about">
-        <p>I bring analytical, organizational, and leadership skills to my work, along with strong computer literacy and a steady wish to contribute to an organization.</p>
-        <p>Alongside my studies I have worked on data entry, graphic design, and IT projects. I want to gain professional experience, help the team run more efficiently, and keep building my technical and analytical skills in a real work environment.</p>
-      </div>
-    </div>
-  </section>
+            <a href="https://github.com/andy-numero"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="GitHub" title="GitHub">
+                <svg class="social-icon github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path class="github-mark" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.67-3.75-1.32-3.75-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.27-2.6 5.21-5.08 5.49.4.35.75 1.02.75 2.06V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z"/>
+                </svg>
+            </a>
+        </div>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="body">
-      <div class="comp">
-        <div>
-          <h3>Data management</h3>
-          <p>Digital record organization, data entry, and information accuracy.</p>
-        </div>
-        <div>
-          <h3>Spreadsheet automation</h3>
-          <p>Excel macros, VLOOKUP, and PivotTables.</p>
-        </div>
-        <div>
-          <h3>Software testing</h3>
-          <p>Functional testing, issue identification, and role-based access verification.</p>
-        </div>
-        <div>
-          <h3>Project coordination</h3>
-          <p>Technical documentation, system workflows, and milestone tracking.</p>
-        </div>
-      </div>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#tools">Tools</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#resume">Resume</a>
+            <a class="nav-cta" href="#contact">Contact</a>
 
-      <div class="groups">
-        <div class="group">
-          <span class="label">Data and productivity</span>
-          <div class="chips"><span class="chip">Excel macros</span><span class="chip">VLOOKUP</span><span class="chip">PivotTables</span><span class="chip">Word</span><span class="chip">PowerPoint</span><span class="chip">Google Workspace</span><span class="chip">Microsoft 365</span></div>
-        </div>
-        <div class="group">
-          <span class="label">Project and system operations</span>
-          <div class="chips"><span class="chip">Project coordination</span><span class="chip">Data management</span><span class="chip">Technical documentation</span><span class="chip">Workflow optimization</span><span class="chip">Quality assurance testing</span></div>
-        </div>
-        <div class="group">
-          <span class="label">IT support</span>
-          <div class="chips"><span class="chip">Basic hardware and software troubleshooting</span><span class="chip">Windows and macOS configuration</span><span class="chip">System checking</span></div>
-        </div>
-        <div class="group">
-          <span class="label">AI tools</span>
-          <div class="chips"><span class="chip">ChatGPT</span><span class="chip">Claude</span><span class="chip">Gemini</span></div>
-        </div>
-        <div class="group">
-          <span class="label">Creative</span>
-          <div class="chips"><span class="chip">Graphic design</span><span class="chip">Digital asset creation</span><span class="chip">Brand identity design</span></div>
-        </div>
-      </div>
+            <button class="theme-toggle" id="theme-toggle" type="button"
+                    aria-label="Switch color theme">
+                <span aria-hidden="true">◐</span>
+                <span id="theme-label">Dark mode</span>
+            </button>
+        </nav>
+    </header>
 
-      <p class="soft"><span class="label" style="display:block;margin-bottom:4px;">Soft skills</span>Communication, teamwork, leadership, analytical thinking, organization, time management, adaptability, problem-solving, and attention to detail.</p>
-    </div>
-  </section>
+    <!-- HERO -->
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <span class="label">BS Information Technology Student</span>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="body">
-      <article class="role">
-        <div class="when">March 2026 – Present</div>
-        <div>
-          <h3>Project Analyst, Documentation Lead and System Tester</h3>
-          <p class="org">ClinicSync · STI College of Tanay</p>
-          <ul>
-            <li>Prepared the capstone manuscript, technical documentation, and system workflows.</li>
-            <li>Tested login functionality and role-based access to verify appropriate user permissions.</li>
-            <li>Checked patient record searches, consultation histories, medication records, and laboratory PDF uploads.</li>
-            <li>Identified system issues and tested backup and restoration functions.</li>
-          </ul>
-        </div>
-      </article>
-      <article class="role">
-        <div class="when">2024 – Present</div>
-        <div>
-          <h3>Clinical Secretary <span class="mono" style="font-size:13px;color:var(--muted);font-weight:400;">(part-time)</span></h3>
-          <p class="org">HealthGuide Diagnostic Clinic and Laboratory</p>
-          <ul>
-            <li>Created Excel macros to simplify data entry and medical report preparation.</li>
-            <li>Organized digital records and improved administrative reporting workflows.</li>
-            <li>Handled confidential medical documents while maintaining accuracy and data integrity.</li>
-          </ul>
-        </div>
-      </article>
-    </div>
-  </section>
+                <h1>Andrea Amor <span>De Castro</span></h1>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="body">
+                <p class="lede">
+                    An aspiring IT professional interested in data management,
+                    IT operations, project coordination, and technology-driven
+                    solutions. I value accuracy, organization, and continuous
+                    learning, and I am looking for an OJT opportunity where I
+                    can contribute while developing my professional skills.
+                </p>
 
-      <div style="display:flex;flex-direction:column;gap:16px;">
-        <div class="sub-h"><h3 class="label" style="margin:0;font-weight:500;">System development</h3><span class="label">2 projects</span></div>
-        <div class="cards two">
-          <article class="card">
-            <div class="thumb"><span class="label">ClinicSync screenshot</span></div>
-            <div class="card-body">
-              <h3>ClinicSync</h3>
-              <p>A desktop clinic information system for managing patient records, consultation histories, medication records, and laboratory PDF uploads.</p>
-              <div class="chips"><span class="chip">Capstone</span><span class="chip">Documentation</span><span class="chip">System testing</span></div>
+                <div class="hero-actions">
+                    <a class="btn" href="#contact">
+                        Let's Work Together <span aria-hidden="true">↗</span>
+                    </a>
+                    <a class="text-link" href="#projects">Explore my work ↓</a>
+                </div>
             </div>
-          </article>
-          <article class="card">
-            <div class="thumb"><span class="label">Electric Vehicle Hub screenshot</span></div>
-            <div class="card-body">
-              <h3>Electric Vehicle Hub</h3>
-              <p>A web platform about electric vehicles and sustainable transport.</p>
-              <div class="chips"><span class="chip">Web platform</span></div>
+
+            <div class="profile-frame">
+                <img src="images/profile.jpg"
+                     alt="Portrait of Andrea Amor De Castro"
+                     class="profile-image">
             </div>
-          </article>
         </div>
-      </div>
 
-      <div style="display:flex;flex-direction:column;gap:16px;">
-        <div class="sub-h"><h3 class="label" style="margin:0;font-weight:500;">Graphic design</h3><span class="label">6 pieces</span></div>
-        <div class="cards three">
-          <article class="card">
-            <div class="thumb"><span class="label">Brochure</span></div>
-            <div class="card-body"><h3>Corporate Brochure Design</h3><p>A print brochure laid out for a business audience.</p></div>
-          </article>
-          <article class="card">
-            <div class="thumb"><span class="label">Logos</span></div>
-            <div class="card-body"><h3>Brand Identity Logo Collection</h3><p>Logo marks and identity directions for different brands.</p></div>
-          </article>
-          <article class="card">
-            <div class="thumb"><span class="label">Flyers</span></div>
-            <div class="card-body"><h3>Promotional Flyer Series</h3><p>A set of flyers made to promote events and offers.</p></div>
-          </article>
-          <article class="card">
-            <div class="thumb"><span class="label">Booklet</span></div>
-            <div class="card-body"><h3>Educational Booklet Design</h3><p>A booklet that organizes learning content for easy reading.</p></div>
-          </article>
-          <article class="card">
-            <div class="thumb"><span class="label">Infographics</span></div>
-            <div class="card-body"><h3>Information Visualization Infographics</h3><p>Infographics that turn information into clear visuals.</p></div>
-          </article>
-          <article class="card">
-            <div class="thumb"><span class="label">Presentations</span></div>
-            <div class="card-body"><h3>Professional Presentation Decks</h3><p>Slide decks designed for clear, professional delivery.</p></div>
-          </article>
-        </div>
-      </div>
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About me</h2>
 
-    </div>
-  </section>
+            <div class="body">
+                <p class="statement">
+                    I am an Information Technology student with an interest
+                    in using technology to organize information, improve
+                    workflows, and support business operations.
+                </p>
 
-  <section id="education">
-    <h2>Education</h2>
-    <div class="body">
-      <div class="edu-item">
-        <div class="when">2023 – Present</div>
+                <div class="about">
+                    <p>
+                        Through my academic projects and part-time work, I
+                        have gained experience in organizing digital records,
+                        preparing documentation, creating spreadsheet
+                        solutions, and assisting with administrative tasks.
+                        My involvement in the ClinicSync capstone project
+                        also gave me practical exposure to system workflows,
+                        documentation, and software testing.
+                    </p>
+
+                    <p>
+                        I bring analytical thinking, communication,
+                        organization, and leadership skills to my work.
+                        I am eager to apply what I have learned in a
+                        professional environment, contribute to a team,
+                        and continue developing my technical and
+                        problem-solving abilities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <div>
-          <h3>STI College of Tanay</h3>
-          <p>Bachelor of Science in Information Technology · Expected graduation July 2027</p>
-          <div class="groups" style="margin-top:16px;">
-            <div class="group">
-              <span class="label">Coursework</span>
-              <div class="chips"><span class="chip">Information Management</span><span class="chip">Advanced Database Systems</span><span class="chip">Systems Administration and Maintenance</span><span class="chip">Human-Computer Interaction</span><span class="chip">Information Assurance and Security</span><span class="chip">IT Capstone Project</span></div>
-            </div>
-            <div class="group">
-              <span class="label">IT electives</span>
-              <div class="chips"><span class="chip">Object-Oriented Programming</span><span class="chip">Enterprise Architecture</span><span class="chip">Programming Languages</span><span class="chip">Game Development</span></div>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <div class="avail" id="ojt">
-        <dl>
-          <div><dt class="label">OJT required hours</dt><dd>486 hours</dd></div>
-          <div><dt class="label">Preferred start</dt><dd>February 15, 2027</dd></div>
-        </dl>
-      </div>
-    </div>
-  </section>
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Skills</h2>
 
-  <section id="contact">
-    <h2>Contact</h2>
+            <div class="body">
+                <div class="comp">
+                    <div>
+                        <h3>Data management</h3>
+                        <p>Data entry, digital record organization, and information accuracy.</p>
+                    </div>
+
+                    <div>
+                        <h3>Spreadsheet operations</h3>
+                        <p>Excel macros, VLOOKUP, PivotTables, and data organization.</p>
+                    </div>
+
+                    <div>
+                        <h3>Software testing</h3>
+                        <p>Functional testing, issue identification, and role-based access checking.</p>
+                    </div>
+
+                    <div>
+                        <h3>Project coordination</h3>
+                        <p>Technical documentation, workflow planning, and task coordination.</p>
+                    </div>
+                </div>
+
+                <div class="groups">
+                    <div class="group">
+                        <span class="label">Technical and IT skills</span>
+                        <div class="chips">
+                            <span class="chip">Basic IT troubleshooting</span>
+                            <span class="chip">Data management</span>
+                            <span class="chip">System testing</span>
+                            <span class="chip">Technical documentation</span>
+                            <span class="chip">Basic programming</span>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <span class="label">Administrative skills</span>
+                        <div class="chips">
+                            <span class="chip">Data entry</span>
+                            <span class="chip">Records management</span>
+                            <span class="chip">Report preparation</span>
+                            <span class="chip">File organization</span>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <span class="label">Soft skills</span>
+                        <div class="chips">
+                            <span class="chip">Communication</span>
+                            <span class="chip">Teamwork</span>
+                            <span class="chip">Leadership</span>
+                            <span class="chip">Analytical thinking</span>
+                            <span class="chip">Time management</span>
+                            <span class="chip">Adaptability</span>
+                            <span class="chip">Problem-solving</span>
+                            <span class="chip">Attention to detail</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TOOLS AND TECHNOLOGIES -->
+        
+<section id="tools">
+    <h2>Tools & Technologies</h2>
+
     <div class="body">
-      <p class="statement">Have an OJT opening or a project in mind? I would be glad to work with you.</p>
-      <div class="contact-list">
-        <div class="contact-row">
-          <span class="label k">Email</span>
-          <span class="val" id="v-email">andreaamor.dc@gmail.com</span>
-          <button class="copy" type="button" data-target="v-email">Copy</button>
-        </div>
-        <div class="contact-row">
-          <span class="label k">Phone</span>
-          <span class="val" id="v-phone">09393074956</span>
-          <button class="copy" type="button" data-target="v-phone">Copy</button>
-        </div>
-        <div class="contact-row">
-          <span class="label k">Based in</span>
-          <span class="val">Tanay, Rizal</span>
-          <span></span>
-        </div>
-      </div>
-      <p class="refs">References available upon request.</p>
-    </div>
-  </section>
+        <p class="statement">
+            Technologies and applications I have used
+            throughout my academic projects and learning experience.
+        </p>
 
-  <footer>
-    <span class="label">© 2026 Andrea Amor De Castro</span>
-    <span class="label">BSIT · STI College of Tanay</span>
-  </footer>
+        <div class="tool-groups">
+
+            <div class="tool-group">
+                <h3>Development & Programming</h3>
+
+                <div class="icon-grid">
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                             alt="Visual Studio Code">
+                        <span>VS Code</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                             alt="Git">
+                        <span>Git</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                             alt="GitHub">
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                             alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tool-group">
+                <h3>Design & Productivity</h3>
+
+                <div class="icon-grid">
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+                             alt="Canva">
+                        <span>Canva</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.simpleicons.org/microsoftword/2B579A"
+                             alt="Microsoft Word">
+                        <span>Word</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.simpleicons.org/microsoftexcel/217346"
+                             alt="Microsoft Excel">
+                        <span>Excel</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.simpleicons.org/microsoftpowerpoint/B7472A"
+                             alt="Microsoft PowerPoint">
+                        <span>PowerPoint</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tool-group">
+                <h3>Enterprise & Cloud Platforms</h3>
+
+                <div class="icon-grid">
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sap/sap-original.svg"
+                             alt="SAP">
+                        <span>SAP</span>
+                    </div>
+
+                    <div class="tool-icon">
+                        <img loading="lazy" decoding="async" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                             alt="Amazon Web Services">
+                        <span>AWS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <div class="body">
+                <article class="role">
+                    <div class="when">March 2026 – Present</div>
+
+                    <div>
+                        <h3>Project Analyst, Documentation Lead and System Tester</h3>
+                        <p class="org">ClinicSync · STI College of Tanay</p>
+
+                        <ul>
+                            <li>Prepared the capstone manuscript, technical documentation, and system workflows.</li>
+                            <li>Participated in client discussions and gathered system requirements.</li>
+                            <li>Tested login functionality and role-based access to verify appropriate user permissions.</li>
+                            <li>Checked patient record searches, consultation histories, medication records, and laboratory PDF uploads.</li>
+                            <li>Identified system issues and tested backup and restoration functions.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="role">
+                    <div class="when">2024 – Present</div>
+
+                    <div>
+                        <h3>Clinical Secretary <span class="small-text">(Part-time)</span></h3>
+                        <p class="org">HealthGuide Diagnostic Clinic and Laboratory</p>
+
+                        <ul>
+                            <li>Created Excel macros to simplify data entry and medical report preparation.</li>
+                            <li>Organized digital records and assisted with administrative reporting workflows.</li>
+                            <li>Handled confidential medical documents while maintaining accuracy and data integrity.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="body">
+
+                <div class="project-group">
+                    <div class="sub-h">
+                        <h3 class="label">System development</h3>
+                        <span class="label">2 projects</span>
+                    </div>
+
+                    <div class="cards two">
+                        <article class="card">
+                            <div class="thumb">
+                                <img class="project-image" src="images/clinic.png" alt="ClinicSync desktop system screenshot">
+                            </div>
+
+                            <div class="card-body">
+                                <h3>ClinicSync</h3>
+                                <p>
+                                    A desktop clinic information system for
+                                    managing patient records, consultation
+                                    histories, medication records, and
+                                    laboratory PDF uploads.
+                                </p>
+
+                                <div class="chips">
+                                    <span class="chip">Capstone</span>
+                                    <span class="chip">Documentation</span>
+                                    <span class="chip">System testing</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="thumb">
+                                <img class="project-image" src="images/evh.png" alt="Electric Vehicle Hub website screenshot">
+                            </div>
+
+                            <div class="card-body">
+                                <h3>Electric Vehicle Hub</h3>
+                                <p>
+                                    A web platform focused on electric
+                                    vehicles and sustainable transportation.
+                                </p>
+
+                                <div class="chips">
+                                    <span class="chip">Web platform</span>
+                                    <span class="chip">Academic project</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="project-group">
+                    <div class="sub-h">
+                        <h3 class="label">Graphic design</h3>
+                        <span class="label">6 projects</span>
+                    </div>
+
+                    <div class="cards three">
+                        <article class="card">
+                            <div class="thumb"><img class="project-image" src="images/brochure.png" alt="Corporate brochure design sample"></div>
+                            <div class="card-body">
+                                <h3>Corporate Brochure Design</h3>
+                                <p>A print brochure layout created for an informational or business audience.</p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="thumb"><img class="project-image" src="images/Logo.png" alt="Brand identity logo collection"></div>
+                            <div class="card-body">
+                                <h3>Brand Identity Logo Collection</h3>
+                                <p>Logo concepts and identity designs for different creative projects.</p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="thumb"><img class="project-image" src="images/flyer.png" alt="Promotional flyer design samples"></div>
+                            <div class="card-body">
+                                <h3>Promotional Flyer Series</h3>
+                                <p>Visual materials designed for announcements, events, and promotions.</p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="thumb"><img class="project-image" src="images/booklet.png" alt="Educational booklet design sample"></div>
+                            <div class="card-body">
+                                <h3>Educational Booklet Design</h3>
+                                <p>A booklet layout that organizes information into readable sections.</p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="thumb"><img class="project-image" src="images/infograph.png" alt="Information visualization infographic samples"></div>
+                            <div class="card-body">
+                                <h3>Information Visualization Infographics</h3>
+                                <p>Visual presentations of information designed for clarity and readability.</p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="thumb"><img class="project-image" src="images/presentation.png" alt="Presentation deck design samples"></div>
+                            <div class="card-body">
+                                <h3>Professional Presentation Decks</h3>
+                                <p>Slide decks designed to communicate information clearly and professionally.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="body">
+                <div class="edu-item">
+                    <div class="when">2023 – Present</div>
+
+                    <div>
+                        <h3>STI College of Tanay</h3>
+                        <p>
+                            Bachelor of Science in Information Technology
+                            · Expected graduation July 2027
+                        </p>
+
+                        <div class="groups education-groups">
+                            <div class="group">
+                                <span class="label">Coursework</span>
+                                <div class="chips">
+                                    <span class="chip">Information Management</span>
+                                    <span class="chip">Advanced Database Systems</span>
+                                    <span class="chip">Systems Administration and Maintenance</span>
+                                    <span class="chip">Human-Computer Interaction</span>
+                                    <span class="chip">Information Assurance and Security</span>
+                                    <span class="chip">IT Capstone Project</span>
+                                </div>
+                            </div>
+
+                            <div class="group">
+                                <span class="label">IT electives</span>
+                                <div class="chips">
+                                    <span class="chip">Object-Oriented Programming</span>
+                                    <span class="chip">Enterprise Architecture</span>
+                                    <span class="chip">Programming Languages</span>
+                                    <span class="chip">Game Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OJT DETAILS -->
+                <div class="avail" id="ojt">
+                    <div class="ojt-heading">
+                        <span class="label">On-the-Job Training</span>
+                        <h3>Ready to learn, contribute, and grow.</h3>
+                        <p>
+                            My required training details are listed below.
+                            The daily schedule and final completion date
+                            can be coordinated with the host organization.
+                        </p>
+                    </div>
+
+                    <div class="ojt-facts">
+                        <div class="ojt-fact">
+                            <span class="label">Required training hours</span>
+                            <strong>486 <small>hours</small></strong>
+                        </div>
+
+                        <div class="ojt-fact">
+                            <span class="label">Preferred start date</span>
+                            <strong>February 15, 2027</strong>
+                        </div>
+
+                        <div class="ojt-fact">
+                            <span class="label">Training schedule</span>
+                            <strong>To be coordinated</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME -->
+        
+<!-- RESUME -->
+<section id="resume">
+    <h2>Resume</h2>
+
+    <div class="body">
+        <p class="statement">
+            Interested in learning more about my background,
+            qualifications, and experience?
+        </p>
+
+        <p class="resume-description">
+            You can view my resume online or download a PDF copy
+            for your reference.
+        </p>
+
+        <div class="resume-actions">
+            <a class="btn"
+               href="resume.pdf"
+               target="_blank"
+               rel="noopener noreferrer">
+                View My Resume <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="resume-download"
+               href="resume.pdf"
+               download>
+                Download PDF ↓
+            </a>
+        </div>
+    </div>
+</section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <div class="body">
+                <p class="statement">
+                    Have an OJT opening or an opportunity to collaborate?
+                    I would be glad to hear from you.
+                </p>
+
+                <div class="contact-list">
+                    <div class="contact-row">
+                        <span class="label k">Email</span>
+                        <a class="val" href="mailto:andreaamor.dc@gmail.com">
+                            andreaamor.dc@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-row">
+                        <span class="label k">Phone</span>
+                        <a class="val" href="tel:+639393074956">
+                            +63 939 307 4956
+                        </a>
+                    </div>
+
+                    <div class="contact-row">
+                        <span class="label k">Instagram</span>
+                        <a class="val"
+                           href="https://www.instagram.com/andys_sands/"
+                           target="_blank" rel="noopener noreferrer">
+                            @andys_sands
+                        </a>
+                    </div>
+
+                    <div class="contact-row">
+                        <span class="label k">GitHub</span>
+                        <a class="val"
+                           href="https://github.com/andy-numero"
+                           target="_blank" rel="noopener noreferrer">
+                            github.com/andy-numero
+                        </a>
+                    </div>
+                </div>
+
+                <p class="refs">References available upon request.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <span class="label">© 2026 Andrea Amor De Castro</span>
+        <span class="label">BSIT · STI College of Tanay</span>
+    </footer>
 
 </div>
 
