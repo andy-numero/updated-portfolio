@@ -1805,7 +1805,7 @@ footer {
 main {
     display: flex;
     flex-direction: column;
-    gap: 82px;
+    gap: 35px;
 }
 
 .wrap {
@@ -2086,4 +2086,22 @@ main > section > .body {
 
 @media (prefers-reduced-motion: reduce) {
     #projects .project-image { transition: none; }
+}
+
+/*REDUCE SPACING BETWEEN SECTIONS*/
+main > section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*RESPONSIVE SPACING*/
+@media (max-width: 768px) {
+    main {
+        gap: 25px;
+    }
+
+    main > section {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
